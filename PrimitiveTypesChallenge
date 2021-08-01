@@ -1,0 +1,12 @@
+package com.reubencode;
+
+public class Main {
+
+    public static void main(String[] args) {
+	    byte byteValue = 10;
+	    short shortValue = 100;
+	    int intValue = 10001;
+	    long longValue = 50000 + (byteValue + shortValue + intValue) * 10;
+        System.out.println(longValue);
+    }
+}
