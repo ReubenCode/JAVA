@@ -1,0 +1,21 @@
+public class hello {
+
+    public static void main(String[] args) {
+
+      double doubleValue = 20.00d;
+      double secondDoubleValue = 80.00d;
+      double totalValue = (doubleValue + secondDoubleValue) * 100.00d;
+      System.out.println("my total = " + totalValue);
+      double totalRemainder = totalValue % 40.00;
+      System.out.println("my remainder is " + totalRemainder);
+      boolean remainderTrue = true;
+      if (totalRemainder == 0){
+       remainderTrue = true;
+       System.out.println("0, so true");
+
+      } else {
+       System.out.println(totalRemainder);
+      }
+
+    }
+}
